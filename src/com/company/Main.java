@@ -7,5 +7,6 @@ public class Main {
         //Brock was here
             //Stefan was here
                 //Westin was here too!
+        System.out.println("hello");
     }
 }
