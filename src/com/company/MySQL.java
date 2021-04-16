@@ -1,16 +1,6 @@
 package com.company;
 
-<<<<<<< Updated upstream:src/com/company/Main.java
-public class Main {
-
-    public static void main(String[] args) {
-	 //Bobby wuz her
-        //Brock was here
-=======
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-
+import java.sql.*;
 public class MySQL {
     public static void connectMySQL() {
         String MySQLURL = "jdbc:mysql://localhost:3306/testdb?useSSL=false";
@@ -25,6 +15,5 @@ public class MySQL {
         } catch (Exception e) {
             e.printStackTrace();
         }
->>>>>>> Stashed changes:src/com/company/MySQL.java
     }
 }
