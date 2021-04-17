@@ -1,7 +1,8 @@
 package com.company;
-
 import java.sql.*;
+
 public class MySQL {
+
     public static void connectMySQL() {
         String MySQLURL = "jdbc:mysql://localhost:3306/testdb?useSSL=false";
         String databseUserName = "root";
