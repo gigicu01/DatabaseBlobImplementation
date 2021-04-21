@@ -1,6 +1,7 @@
 package com.company;
 import java.sql.*;
 
+// h
 public class MySQL {
 
     public static void connectMySQL() {
