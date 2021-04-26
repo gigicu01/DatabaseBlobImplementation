@@ -14,7 +14,7 @@ public class PostgreTest {
         try {
             Class.forName("org.postgresql.Driver");
             c = DriverManager
-                    .getConnection("jdbc:postgresql://localhost:5432/CompanyCo",
+                    .getConnection("jdbc:postgresql://localhost:5432/CompanyCoPayroll",
                             "postgre", "123Password");
             System.out.println("Opened database successfully");
 

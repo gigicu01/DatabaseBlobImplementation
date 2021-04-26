@@ -12,11 +12,12 @@ public class PostgreSQL {
             c = DriverManager
                     .getConnection("jdbc:postgresql://localhost:5432/CompanyCoPayroll",
                             "postgres", "123Password");
+            System.out.println("Opened database successfully");
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println(e.getClass().getName()+": "+e.getMessage());
             System.exit(0);
         }
-        System.out.println("Opened database successfully");
+
     }
 }
